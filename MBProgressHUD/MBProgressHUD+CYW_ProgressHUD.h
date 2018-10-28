@@ -8,7 +8,7 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 
-typedef void(^completion)(MBProgressHUD *hud);
+//typedef void(^completion)(MBProgressHUD *hud);
 
 @interface MBProgressHUD (CYW_ProgressHUD)
 /*

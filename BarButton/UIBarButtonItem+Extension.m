@@ -27,7 +27,7 @@
     [btn setBackgroundImage:[UIImage imageNamed:image] forState:UIControlStateNormal];
     [btn setBackgroundImage:[UIImage imageNamed:highImage] forState:UIControlStateHighlighted];
     // 设置尺寸
-    btn.size = itemsize;
+//    btn.size = itemsize;
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
 
@@ -38,7 +38,7 @@
     [btn setTitle:title forState:UIControlStateNormal];
     [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 //    btn.backgroundColor = [UIColor redColor];
-    btn.size = itemsize;
+//    btn.size = itemsize;
     
     return [[UIBarButtonItem alloc] initWithCustomView:btn];
 }

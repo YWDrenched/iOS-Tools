@@ -10,10 +10,10 @@
 
 #define kHUDTitleFont(s) [UIFont systemFontOfSize:s]
 #define kHUDTextFont(s) [UIFont systemFontOfSize:s]
-#define kHideHUDTime 2.f
+#define kHideHUDTime 1.f
 #define kHUDMessageOffsetY -([UIScreen mainScreen].bounds.size.height / 4)
-#define kSuccessImage @""
-#define kFailImage @""
+#define kSuccessImage @"ImageSelectedOff"
+#define kFailImage @"ImageError"
 
 @implementation MBProgressHUD (CYW_ProgressHUD)
 

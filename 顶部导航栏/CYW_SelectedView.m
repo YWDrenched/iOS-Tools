@@ -7,7 +7,7 @@
 //
 
 #import "CYW_SelectedView.h"
-#import "UIView+CYWExtension.m"
+#import "UIView+CYWExtension.h"
 
 // 首页的选择器的宽度
 #define Default_W 60
@@ -59,6 +59,7 @@
     NSInteger i = 0;
     for (NSString *title in titleArr) {
         UIButton *btn = [[UIButton alloc] init];
+        btn.titleLabel.font = [UIFont systemFontOfSize:14];
         [btn setTitle:title forState:UIControlStateNormal];
         [btn setTitleColor:[[UIColor whiteColor] colorWithAlphaComponent:0.6] forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
